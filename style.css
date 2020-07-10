@@ -11,7 +11,7 @@ margin: 0px 0px;}
 
 .bkgrd{background-position: center;
 padding: 1px 1px 1px 1px;
-im
+
 }
 
 .drpdnbtn{background-color: #948f93;
@@ -34,6 +34,7 @@ color: rgb(93, 94, 93);
   margin-right: auto;
   width: 100% 50%;
   opacity:0.1;
+  z-index: 1;
 }
 
 .navbar-brand{background-color: #948f93;
@@ -61,8 +62,19 @@ color: rgb(93, 94, 93);
       font-size: 16px;
       border: none;}
 
-      .busman{background-position: top;
-      align-items: center; position: absolute;
-      top: 100px;
-      left: 100px;
-    right: 100px;}
+      .busman{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 60px;
+    bottom: 80px;
+    left: 60px;
+    right: 80px;
+    width: 100% 50%;
+    margin-top: auto;
+    opacity: .3;
+    z-index: 2;
+  border-radius: 3;}
+
+  .conbgrd{background-color:rgb(49, 49, 49);background-position: center; background-size: auto;height: 100%;
+    margin: 0px 0px;}
