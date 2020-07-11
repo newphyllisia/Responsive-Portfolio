@@ -90,3 +90,17 @@ color: rgb(93, 94, 93);
  }
   .img{padding: 30px 30 px;
     margin: 50px 50px}
+
+    .linkedlogo{position: absolute;
+      margin-left: 430px;
+      margin-right: 20px;
+      top: 60px;
+      bottom: 80px;
+      left: 60px;
+      right: 80px;
+      width: auto;
+      margin-top: auto;
+      opacity: .8;
+      z-index: 2;
+      border-radius: 3%;
+    border-radius: 3;}
